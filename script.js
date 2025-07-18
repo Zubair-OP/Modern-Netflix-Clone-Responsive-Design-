@@ -6,7 +6,7 @@ let text = document.querySelector('.text')
 
 faqbox.forEach((box) => {
   box.addEventListener('click', () => {
-    let answer = box.nextElementSibling; // یہی ہے آپ کا answer
+    let answer = box.nextElementSibling; 
     answer.classList.toggle('active');
   });
 });
